@@ -1,7 +1,7 @@
 [package]
 
 name = "bodyparser"
-version = "0.0.5"
+version = "0.0.6"
 license = "MIT"
 description = "Body parsing middleware for Iron."
 repository = "https://github.com/iron/body-parser"
@@ -11,7 +11,7 @@ authors = ["Patrick Tran <patrick.tran06@gmail.com>",
 keywords = ["iron", "web", "http", "parsing", "parser"]
 
 [dependencies]
-iron = "*"
+iron = { git = "https://github.com/r-arias/iron" }
 rustc-serialize = "*"
 plugin = "*"
-persistent = "*"
+persistent = { git = "https://github.com/r-arias/persistent" }
